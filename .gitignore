@@ -11,3 +11,18 @@ htmlcov/
 .streamlit/
 data/embeddings/*
 !data/embeddings/.gitkeep
+# DeepFashion raw dataset (downloaded separately, not pushed)
+data/train_images/
+data/test_images/
+data/shape_ann/
+data/texture_ann/
+data/segm/
+data/densepose/
+
+# Gallery folder (if used) - keep placeholder only
+data/gallery/*
+!data/gallery/.gitkeep
+
+# Smoke-test artifacts
+data/gallery_test/
+data/embeddings_test/
